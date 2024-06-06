@@ -1,33 +1,86 @@
 <head>
     <title>Famine Fighters</title>
+    <style>
+        body {
+            background-color: rgb(214, 234, 214);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+            position: fixed; /* Make the navbar stay at the top */
+            top: 0;
+            width: 100%;
+        }
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .navbar li {
+            display: inline;
+        }
+        .navbar li a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        .navbar li a:hover {
+            background-color: #575757;
+        }
+        .content {
+            padding: 60px 20px; /* Adjust to ensure content is not hidden behind the navbar */
+        }
+        h1 {
+            color: blue;
+            text-align: center;
+            margin-top: 20px;
+        }
+        p {
+            text-align: center;
+            margin: 0 auto;
+            width: 60%;
+        }
+        img {
+            display: block;
+            margin: 20px auto;
+        }
+    </style>
 </head>
+
 <body style="background-color: rgb(214, 234, 214);">
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="register.html">Register</a></li>
-        <li><a href="donate.html">Donate Food</a></li>
-        <li><a href="local-council.html">Local Council Leader</a></li>
-        <li><a href="volunteering.html">Volunteering</a></li>
-    </ul>
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="donate.html">Donate Food</a></li>
+            <li><a href="local-council.html">Local Council Leader</a></li>
+            <li><a href="volunteering.html">Volunteering</a></li>
+        </ul>
+    </div>
 
-<img src="home-page-image.jpg" alt="hero section image">
-<h1 style="color: blue;">Famine Fighters</h1>
-<p> 
-    Join us in making a difference by bridging the gap between surplas food and those in need. 
+    <div class="content">
+        <img src="home-page-image.jpg" alt="hero section image">
+        <h1 style="color: blue;">Famine Fighters</h1>
+        <p> 
+            Join us in making a difference by bridging the gap between surplas food and those in need. <br><br>
 
-    In the Karamoja region, over 518,000 people are facing critical food insecurity, with 90,000 at emergency
-    levels without food to eat. Our app empowers individuals and businesses to easily donate excess food,
-    ensuring it reaches local food banks and shelters swiftly. 
-    
-    Together, we can fight famine, reduce waste, and build stronger communities. 
-    
-    Ready to make an impact? Get started today and be a part of the solution.
-</p>
-
-
-
+            In the Karamoja region, over 518,000 people are facing critical food insecurity, with 90,000 at emergency
+            levels without food to eat. Our app empowers individuals and businesses to easily donate excess food,
+            ensuring it reaches local food banks and shelters swiftly.
+            Together, we can fight famine, reduce waste, and build stronger communities. <br><br>
+            
+            Ready to make an impact? <a href="register.html">Get started today and be a part of the solution.</a><br><br>
+        </p>
+    </div>
 
 </body>
 <footer></footer>
