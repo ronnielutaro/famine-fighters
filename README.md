@@ -1,9 +1,5 @@
 # Famine Fighters App
 
-https://github.com/ronnielutalo/Femine-Fighters/actions/workflows/static.yml/badge.svg
-
-[![Deploy website to Pages](https://github.com/ronnielutalo/Femine-Fighters/actions/workflows/deploy.yml/badge.svg)](https://github.com/ronnielutalo/Femine-Fighters/actions/workflows/static.yaml)
-
 ### Overview
 
 The Famine Fighters App is designed to facilitate food donations from individuals and businesses to local food banks, families and shelters in Karamoja Region. It aims to reduce food waste and combat famine by streamlining the process of donating and distributing food. This app was originally created by the Famine Fighters team, a team of 10 girls together with myself as their Technical Lead. It leveraged the skills learned by the girls during the 10 days bootcamp from the second phase of the African Girls can Code Initiative in Moroto, Karamoja sub-region, between 27th May - 7th June 2024. This project is open source and is currently maintained by Ronnie Lutalo (myself) on behalf of the girls, for the moment.
