@@ -1,4 +1,4 @@
-# Food Donation Coordination App
+# Famine Fighters App
 
 ### Overview
 
