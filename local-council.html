@@ -1,37 +1,112 @@
 <head>
     <title>Famine Fighters</title>
+    <style>
+        body {
+            background-color: rgb(214, 234, 214);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+            position: fixed; /* Make the navbar stay at the top */
+            top: 0;
+            width: 100%;
+        }
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .navbar li {
+            display: inline;
+        }
+        .navbar li a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        .navbar li a:hover {
+            background-color: #575757;
+        }
+        .content {
+            padding: 60px 20px; /* Adjust to ensure content is not hidden behind the navbar */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        h1 {
+            color: blue;
+            text-align: center;
+            margin-top: 20px;
+        }
+        p {
+            text-align: center;
+            margin: 0 auto;
+            width: 60%;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        form label,
+        form input {
+            margin-bottom: 10px;
+            width: 100%;
+            max-width: 300px;
+        }
+        form input[type="submit"] {
+            width: auto;
+        }
+        img {
+            display: block;
+            margin: 20px auto;
+        }
+    </style>
 </head>
 <body style="background-color: rgb(214, 234, 214);">
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="register.html">Register</a></li>
-        <li><a href="donate.html">Donate Food</a></li>
-        <li><a href="local-council.html">Local Council Leader</a></li>
-        <li><a href="volunteering.html">Volunteering</a></li>
-    </ul>
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="donate.html">Donate Food</a></li>
+            <li><a href="local-council.html">Local Council Leader</a></li>
+            <li><a href="volunteering.html">Volunteering</a></li>
+        </ul>
+    </div>
 
-<img src="home-page-image.jpg" alt="hero section image">
-<h1 style="color: blue;">Local Council</h1>
+<div class="content">
+    <img src="home-page-image.jpg" alt="hero section image">
+    <h1 style="color: blue;">Local Council</h1>
 
-<p>Are you a local council 1 leader in your community? Add to our database details of families
-    that are facing challenges with famine in order to help them receive food donations.
-</p>
+    <p>Are you a local council 1 leader in your community? Add to our database details of families
+        that are facing challenges with famine in order to help them receive food donations.
+    </p><br><br>
 
-<form>
-    <label for="name">Family Name:</label><br>
-    <input type="text" id="name" name="name"><br>
-    <label for="role">Family Address:</label><br>
-    <input type="text" id="address" name="address"><br>
-    <label for="needs">Needs:</label><br>
-    <input type="text" id="contact" name="contact"><br>
-    <label for="email">Email:</label><br>
-    <input type="text" id="email" name="email"><br>
-    <label for="password">Contact:</label><br>
-    <input type="text" id="contact" name="contact"><br><br>
-    <input type="submit" value="Submit">
-</form>
+    <form>
+        <label for="name">Family Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="role">Family Address:</label><br>
+        <input type="text" id="address" name="address"><br>
+        <label for="needs">Needs:</label><br>
+        <input type="text" id="contact" name="contact"><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br>
+        <label for="password">Contact:</label><br>
+        <input type="text" id="contact" name="contact"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</div>
 
 </body>
 <footer></footer>

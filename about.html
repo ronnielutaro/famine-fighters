@@ -1,42 +1,95 @@
 <head>
     <title>Famine Fighters</title>
+    <style>
+        body {
+            background-color: rgb(214, 234, 214);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+            position: fixed; /* Make the navbar stay at the top */
+            top: 0;
+            width: 100%;
+        }
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .navbar li {
+            display: inline;
+        }
+        .navbar li a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        .navbar li a:hover {
+            background-color: #575757;
+        }
+        .content {
+            padding: 60px 20px; /* Adjust to ensure content is not hidden behind the navbar */
+        }
+        h1 {
+            color: blue;
+            text-align: center;
+            margin-top: 20px;
+        }
+        p {
+            text-align: center;
+            margin: 0 auto;
+            width: 60%;
+        }
+        img {
+            display: block;
+            margin: 20px auto;
+        }
+    </style>
 </head>
 <body style="background-color: rgb(214, 234, 214);">
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="register.html">Register</a></li>
-        <li><a href="donate.html">Donate Food</a></li>
-        <li><a href="local-council.html">Local Council Leader</a></li>
-        <li><a href="volunteering.html">Volunteering</a></li>
-    </ul>
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="donate.html">Donate Food</a></li>
+            <li><a href="local-council.html">Local Council Leader</a></li>
+            <li><a href="volunteering.html">Volunteering</a></li>
+        </ul>
+    </div>
 
-<img src="home-page-image.jpg" alt="hero section image">
-<h1 style="color: blue;">About Us</h1>
-<p> 
-    Our application empowers individuals and businesses to easily donate excess food to families in
-    Karamoja, ensuring it reaches local food banks and shelters swiftly. 
-    
-    <br>
-    <br>
+    <div class="content">
+        <img src="home-page-image.jpg" alt="hero section image">
+        <h1 style="color: blue;">About Us</h1>
+        <p> 
+            Our application empowers individuals and businesses to easily donate excess food to families in
+            Karamoja, ensuring it reaches local food banks and shelters swiftly. 
+            
+            <br>
+            <br>
 
-    We are dedicated to addressing food insecurity and reducing food waste through innovative technology solutions. Founded with a mission to bridge the gap between surplus food and those in need, our platform empowers individuals and businesses to easily donate excess food to local food banks and shelters. 
+            We are dedicated to addressing food insecurity and reducing food waste through innovative technology solutions. Founded with a mission to bridge the gap between surplus food and those in need, our platform empowers individuals and businesses to easily donate excess food to local food banks and shelters. 
 
-    In regions like Karamoja, Uganda, where over 518,000 people are facing critical food insecurity, the need for effective and efficient food distribution systems is more urgent than ever. By leveraging our app, we aim to facilitate the seamless transfer of surplus food to those who need it most, thereby not only alleviating hunger but also promoting sustainable communities.
+            In regions like Karamoja, Uganda, where over 518,000 people are facing critical food insecurity, the need for effective and efficient food distribution systems is more urgent than ever. By leveraging our app, we aim to facilitate the seamless transfer of surplus food to those who need it most, thereby not only alleviating hunger but also promoting sustainable communities.
 
-    Our team comprises passionate individuals committed to making a tangible difference in the fight against famine. 
-    
-    <br>
-    <br>
+            Our team comprises passionate individuals committed to making a tangible difference in the fight against famine. 
+            
+            <br>
+            <br>
 
-    Through our user-friendly platform, donors can list available food items, schedule pickups, and track the impact of their contributions. Volunteers and recipients benefit from streamlined logistics, ensuring that food donations are efficiently collected and distributed.
+            Through our user-friendly platform, donors can list available food items, schedule pickups, and track the impact of their contributions. Volunteers and recipients benefit from streamlined logistics, ensuring that food donations are efficiently collected and distributed.
 
-    Join us in our journey to create a world where no one has to suffer from hunger. Together, we can build a more resilient and compassionate community, one meal at a time. At FoodShare Hub, we believe that by working together, we can turn the tide against food insecurity and waste.
-</p>
-
-
-
+            Join us in our journey to create a world where no one has to suffer from hunger. Together, we can build a more resilient and compassionate community, one meal at a time. At FoodShare Hub, we believe that by working together, we can turn the tide against food insecurity and waste.
+        </p>
+    </div>
 
 </body>
 <footer></footer>
