@@ -1,4 +1,4 @@
-# Famine Fighters App
+# Famine Fighters
 
 [![Deploy static content to Pages](https://github.com/ronnielutalo/Femine-Fighters/actions/workflows/static.yml/badge.svg)](https://github.com/ronnielutalo/Femine-Fighters/actions/workflows/static.yml)
 
