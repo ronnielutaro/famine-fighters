@@ -1,27 +1,101 @@
 <head>
     <title>Famine Fighters</title>
+    <style>
+        body {
+            background-color: rgb(214, 234, 214);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+            position: fixed; /* Make the navbar stay at the top */
+            top: 0;
+            width: 100%;
+        }
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .navbar li {
+            display: inline;
+        }
+        .navbar li a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        .navbar li a:hover {
+            background-color: #575757;
+        }
+        .content {
+            padding: 60px 20px; /* Adjust to ensure content is not hidden behind the navbar */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        h1 {
+            color: blue;
+            text-align: center;
+            margin-top: 20px;
+        }
+        p {
+            text-align: center;
+            margin: 0 auto;
+            width: 60%;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        form label,
+        form input {
+            margin-bottom: 10px;
+            width: 100%;
+            max-width: 300px;
+        }
+        form input[type="submit"] {
+            width: auto;
+        }
+        img {
+            display: block;
+            margin: 20px auto;
+        }
+    </style>
 </head>
 <body style="background-color: rgb(214, 234, 214);">
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="register.html">Register</a></li>
-        <li><a href="donate.html">Donate Food</a></li>
-        <li><a href="local-council.html">Local Council Leader</a></li>
-        <li><a href="volunteering.html">Volunteering</a></li>
-    </ul>
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="donate.html">Donate Food</a></li>
+            <li><a href="local-council.html">Local Council Leader</a></li>
+            <li><a href="volunteering.html">Volunteering</a></li>
+        </ul>
+    </div>
 
-<img src="home-page-image.jpg" alt="hero section image">
-<h1 style="color: blue;">Accept volunteering opportunity to deliver Food to final destination?</h1>
+<div class="content">
+    <img src="home-page-image.jpg" alt="hero section image">
+    <h1 style="color: blue;">Accept volunteering opportunity to deliver Food to final destination?</h1>
 
-<form>
-<input type="submit" value="Accept mission"><br><br>
-<input type="submit" value="Decline mission">
-</form>
+    <form>
+    <input type="submit" value="Accept mission"><br><br>
+    <input type="submit" value="Decline mission">
+    </form>
 
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.8356373709055!2d144.96328031591252!3d-37.8136289808796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%253A0x5045675218ce6e41!2sMelbourne+VIC%252C+Australia!5e0!3m2!1sen!2sus!4v1508078861959" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.8356373709055!2d144.96328031591252!3d-37.8136289808796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%253A0x5045675218ce6e41!2sMelbourne+VIC%252C+Australia!5e0!3m2!1sen!2sus!4v1508078861959" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
 
 </body>
 <footer></footer>
