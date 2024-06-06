@@ -1,6 +1,8 @@
 # Famine Fighters App
 
-https://github.com/ronnielutalo/Femine-Fighters/actions/workflows/deploy.yml/badge.svg
+https://github.com/ronnielutalo/Femine-Fighters/actions/workflows/static.yml/badge.svg
+
+[![Deploy website to Pages](https://github.com/ronnielutalo/Femine-Fighters/actions/workflows/deploy.yml/badge.svg)](https://github.com/ronnielutalo/Femine-Fighters/actions/workflows/static.yaml)
 
 ### Overview
 
